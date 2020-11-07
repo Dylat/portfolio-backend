@@ -1,0 +1,14 @@
+{
+    /* api.php | application/json  & DELETE method */
+
+    {
+        "id": 123
+    }
+
+
+
+    /* RESPONSE */
+    {
+        "success": true
+    }
+}

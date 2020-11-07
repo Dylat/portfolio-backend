@@ -1,0 +1,25 @@
+{
+    /*
+    application/json  & Delete Request
+    -------------------------------
+    */
+
+    {
+        "id": 123
+    }
+
+
+
+    /* RESPONSE
+    --------------------------------------------- */
+    {
+        "success": true,
+        "post": {
+            "title": "Hello World",
+            "slug": "hello-world",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "path/to/image.jpg",
+            "date": 1603553426
+        }
+    }
+}

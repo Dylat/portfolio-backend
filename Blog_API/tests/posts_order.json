@@ -1,0 +1,80 @@
+{
+    /* api.php | application/json  & POST method */
+
+	{
+	"options": {
+		"order": "DESC",
+		"orderby": "title"
+	}
+
+	/* OR */
+
+	{
+	"options": {
+		"order": "DESC",
+		"orderby": "date"
+	}	
+
+
+	/* OR */
+
+	{
+	"options": {
+		"order": "ASC",
+		"orderby": "title"
+	},
+
+	/* OR */
+
+	{
+	"options": {
+		"order": "ASC",
+		"orderby": "date"
+	},
+
+
+	/******************************/
+
+
+	/* Response */
+    "success": true,
+    "posts": [
+    	{
+            "title": "Hello World",
+            "slug": "hello-world",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "path/to/image.jpg",
+            "date": 1603553426
+        },
+        {
+            "title": "Hello World",
+            "slug": "hello-world",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "path/to/image.jpg",
+            "date": 1603553426
+        },
+        {
+            "title": "Hello World",
+            "slug": "hello-world",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "path/to/image.jpg",
+            "date": 1603553426
+        },
+
+        {
+            "title": "Hello World",
+            "slug": "hello-world",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "path/to/image.jpg",
+            "date": 1603553426
+        },
+        {
+            "title": "Hello World",
+            "slug": "hello-world",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "path/to/image.jpg",
+            "date": 1603553426
+        }
+    ]
+
+}

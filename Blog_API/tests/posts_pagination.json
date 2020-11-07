@@ -1,0 +1,64 @@
+{
+
+    /* api.php | application/json  & POST method */
+    {
+        "options": {
+            "pagination": {
+                "limit": 5, // number of posts to fetch
+                "page": 1 // page number.
+            }
+        }
+    }
+
+
+
+
+
+    /* RESPONSE  */
+    {
+        "success": true,
+        "posts": [
+            {
+                "id": 1,            
+                "title": "Hello World",
+                "slug": "hello-world",
+                "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "image": "path/to/image.jpg",
+                "date": 1603553426
+            },
+            {
+                "id": 2,                
+                "title": "Hello World",
+                "slug": "hello-world",
+                "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "image": "path/to/image.jpg",
+                "date": 1603553426
+            },
+            {
+                "id": 3,
+                "title": "Hello World",
+                "slug": "hello-world",
+                "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "image": "path/to/image.jpg",
+                "date": 1603553426
+            },
+            {
+                "id": 4,                
+                "title": "Hello World",
+                "slug": "hello-world",
+                "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "image": "path/to/image.jpg",
+                "date": 1603553426
+            },
+
+            {
+                "id": 5,
+                "title": "Hello World",
+                "slug": "hello-world",
+                "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "image": "path/to/image.jpg",
+                "date": 1603553426
+            },                        
+        ]
+    }
+}
